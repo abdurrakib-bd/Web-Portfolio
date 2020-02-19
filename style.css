@@ -1,19 +1,66 @@
-h1{
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 span{
     color: tomato;
 }
 
-.one {
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.area{
     width: 40%;
-    height: 40%;
+    margin-left: 5%;
+    padding: 2%;
     float: left;
 }
 
-.one img{
+.area img{
     width: 100%;
 }
 
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.Ex-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+button{
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, black, steelblue);
+}
+
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: gray;
+}
+
+#ful-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(45deg, black, steelblue);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(45deg, blue, skyblue);
+    border-image-slice: 1;
+}
